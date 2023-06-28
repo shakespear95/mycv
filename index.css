@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: green;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-family: 'Lilita', sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+    color: white;
+  }
+
+  .line1 {
+    margin-top: 67px;
+  }
