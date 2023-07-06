@@ -1,0 +1,8 @@
+.middle1 {
+  background: url(img/3efaa98aac9433010527feeb8983830-PhotoRoom.png-PhotoRoom.png);
+  width: 90%;
+  margin: auto;
+  color: bisque;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

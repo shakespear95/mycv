@@ -1,10 +1,32 @@
+*{
+  color: aliceblue;
+}
+
+h1 {
+  font-family: 'Cormorant', sans-serif;
+  font-size: xx-large;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: 'Lilita', sans-serif;
+  font-size: xx-large;
+  font-weight: 400;
+}
 a {
   text-decoration: none;
-  font-family: 'Cormorant';
+  font-family: 'Cormorant', sans-serif;
   font-weight: 300;
   color: aliceblue;
 }
 
+a:hover {
+color: #008b8b;
+}
+
+button:hover {
+  color: #ffffff;
+}
 .logo {
   font-family: 'Cormorant', sans-serif;
   font-size: xx-large;
@@ -20,8 +42,9 @@ a {
 
 }
 
-body {
-  background: black;
+p {
+  font-size: larger;
+  font-family: 'Cormorant', sans-serif;
 }
 
 .nav-links{
@@ -32,16 +55,53 @@ body {
   padding-left: 2em;
 }
 
-.middle1 {
-  background: url(img/3efaa98aac9433010527feeb8983830-PhotoRoom.png-PhotoRoom.png);
-  width: 90%;
-  margin: auto;
-  color: bisque;
-  background-repeat: no-repeat;
-  background-size: cover;
+body {
+  background-color: #232222;
 }
 
-.about {
+hr {
+  height: 1em;
+  margin: 0;
+  background-color: rgb(59, 40, 40);
+}
+
+.HTML > hr {
+  width: 90%;
+}
+
+.middle1 {
+  background: url(img/back.jpg) no-repeat;
+  height: 60em;
+  width: 90%;
+  margin: auto;
+  background-size: 100%;
+}
+
+.textpart {
+text-align: center;
+}
+
+button {
+  border-radius: 10px;
+  background-color: #7b38d8;
+  padding: 20px;
+  width: 200px;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Lilita', sans-serif;
+  font-size: large;
+}
+
+.About {
   display: flex;
-  color: aliceblue;
+}
+
+.who, .about-1, .pic {
+  width: 33%;
+  height: 50em;
+  align-items: center;
+}
+
+.pic {
+  background: url(img/9517f3629ae9e973f5ae2d5f6693a0f-PhotoRoom.png-PhotoRoom.png);
 }
