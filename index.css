@@ -1,39 +1,47 @@
-body {
-    margin: 0;
-  }
-  
-  .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: black;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .navbar a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    padding: 5px;
-    transition: color 0.3s ease;
-  }
-  
-  .navbar a:hover {
-    color: green;
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-family: 'Lilita', sans-serif;
-    font-weight: 400;
-    font-weight: bold;
-    color: white;
-  }
+a {
+  text-decoration: none;
+  font-family: 'Cormorant';
+  font-weight: 300;
+  color: aliceblue;
+}
 
-  .line1 {
-    margin-top: 67px;
-  }
+.logo {
+  font-family: 'Cormorant', sans-serif;
+  font-size: xx-large;
+  font-weight: 700;
+  color: #008b8b;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 3em;
+  margin-top: 1rem;
+  background-color: #222222;
+
+}
+
+body {
+  background: black;
+}
+
+.nav-links{
+  margin-top: 1%;
+}
+
+.navli {
+  padding-left: 2em;
+}
+
+.middle1 {
+  background: url(img/3efaa98aac9433010527feeb8983830-PhotoRoom.png-PhotoRoom.png);
+  width: 90%;
+  margin: auto;
+  color: bisque;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about {
+  display: flex;
+  color: aliceblue;
+}
