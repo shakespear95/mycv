@@ -159,7 +159,27 @@ button {
   justify-content: space-between;
 }
 
-.name,
-.email {
-  width: %;
+.form input[type="text"],
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #45a049;
+}
+
+.myinfo {
+  background: url(img/CP-Mapping-the-Worlds-Roads-Shareable.jpg);
+  width: 60%;
+  height: auto;
 }
