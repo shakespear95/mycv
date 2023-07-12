@@ -16,6 +16,15 @@
         animation: animateHeading 3s infinite;
       }
 
+      header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+        margin-left: 1%;
+    }
+
       .navbar {
         display: flex;
         align-items: center;
@@ -45,6 +54,12 @@
       
       .toggle-nav:checked ~ .nav-links {
         display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(0, 0, 255, 0.7); /* Blue transparent background */
+        padding: 1em;
+        width: 13em;
       }
       
       .toggle-nav:checked ~ .hamburger .fa-bars {
@@ -62,7 +77,7 @@
       .hamburger .fa-times {
         display: none;
       }
-      
+
       .nav-links a {
         display: block;
         margin-bottom: 0.5em;
