@@ -93,6 +93,25 @@ hr {
   width: 90%;
 }
 
+.toggle-nav {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navli {
+  padding-left: 2em;
+}
+
 .middle1 {
   background: url(img/back.jpg) no-repeat;
   height: 40em;
@@ -370,3 +389,4 @@ img {
   padding: 5px 10px;
   margin: 0 5px;
 }
+
