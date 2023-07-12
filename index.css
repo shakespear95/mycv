@@ -62,7 +62,7 @@ body {
 hr {
   height: 1em;
   margin: 0;
-  background-color: rgb(59, 40, 40);
+  background-color: rgb(73, 12, 12);
 }
 
 .HTML > hr {
@@ -71,7 +71,7 @@ hr {
 
 .middle1 {
   background: url(img/back.jpg) no-repeat;
-  height: 60em;
+  height: 40em;
   width: 90%;
   margin: auto;
   background-size: 100%;
@@ -79,6 +79,11 @@ hr {
 
 .textpart {
 text-align: center;
+padding-top: 6em;
+}
+
+.buttons {
+  margin: 10% 7% 0% 32%;
 }
 
 button {
@@ -94,14 +99,67 @@ button {
 
 .About {
   display: flex;
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
 }
 
-.who, .about-1, .pic {
-  width: 33%;
-  height: 50em;
-  align-items: center;
+.about-1,
+.pic,
+.who {
+  flex-basis: calc(100% / 3);
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.pic img {
+  max-width: 100%;
+  height: auto;
 }
 
 .pic {
-  background: url(img/9517f3629ae9e973f5ae2d5f6693a0f-PhotoRoom.png-PhotoRoom.png);
+  width: 70%;
+}
+
+.CSS > hr {
+  width: 90%;
+}
+
+.JavaScript> hr {
+  width: 70%;
+}
+
+.Services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+.tiles {
+  flex-basis: calc(100% / 5);
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+}
+
+.tiles img {
+  max-width: 100%;
+  height: auto;
+}
+
+.contact-me {
+  width: 80%;
+  margin: auto;
+}
+
+.formcontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name,
+.email {
+  width: %;
 }
