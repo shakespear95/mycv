@@ -10,9 +10,14 @@ h1 {
 
 h2 {
   font-family: 'Lilita', sans-serif;
-  font-size: xx-large;
-  font-weight: 400;
+  font-size: 60px;
+  font-weight: 900;
+  color: transparent;
+  text-shadow: 0 0 5px black;
+  animation: animateHeading 3s infinite;
 }
+
+
 a {
   text-decoration: none;
   font-family: 'Cormorant', sans-serif;
@@ -21,7 +26,7 @@ a {
 }
 
 a:hover {
-color: #008b8b;
+color: #c29a65;
 }
 
 button:hover {
@@ -31,13 +36,21 @@ button:hover {
   font-family: 'Cormorant', sans-serif;
   font-size: xx-large;
   font-weight: 700;
-  color: #008b8b;
+  color:#c29a65;
 }
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:95%;
+  z-index: 100;
+  margin-left: 1%;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   height: 3em;
-  margin-top: 1rem;
   background-color: #222222;
 
 }
@@ -59,10 +72,14 @@ body {
   background-color: #232222;
 }
 
+.nav-active {
+  background-color: #c29a65;
+}
+
 hr {
   height: 1em;
   margin: 0;
-  background-color: rgb(73, 12, 12);
+  background-color: #c29a65;
 }
 
 .HTML > hr {
@@ -88,7 +105,7 @@ padding-top: 6em;
 
 button {
   border-radius: 10px;
-  background-color: #7b38d8;
+  background-color: #c29a65;
   padding: 20px;
   width: 200px;
   color: #ffffff;
@@ -102,6 +119,7 @@ button {
   width: 90%;
   margin: auto;
   flex-wrap: wrap;
+  margin-top: 4%;
 }
 
 .about-1,
@@ -142,6 +160,9 @@ button {
   box-sizing: border-box;
   padding: 10px;
   text-align: center;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 5px;
 }
 
 .tiles img {
@@ -156,7 +177,11 @@ button {
 
 .formcontainer {
   display: flex;
-  justify-content: space-between;
+}
+
+.form {
+  width: 60%;
+  padding: 10px;
 }
 
 .form input[type="text"],
@@ -164,6 +189,8 @@ button {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
 
 .form button {
@@ -180,6 +207,46 @@ button {
 
 .myinfo {
   background: url(img/CP-Mapping-the-Worlds-Roads-Shareable.jpg);
-  width: 60%;
-  height: auto;
+  width: 40%;
+  padding: 10px;
+}
+
+#profession {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.icons img:hover {
+  animation: shake 0.8s;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px) rotate(-5deg);
+  }
+  50% {
+    transform: translateX(5px) rotate(5deg);
+  }
+  75% {
+    transform: translateX(-5px) rotate(-5deg);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.contact-me h2,
+.Service h2 {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  background-color: black;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 4%;
 }
