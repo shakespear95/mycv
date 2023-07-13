@@ -42,8 +42,10 @@
     
     <div class="buttons">
 
-      <button>viewwork</button>
-      <button>hireme</button>
+      
+      <a href="#projects"><button>viewwork</button></a>
+      <a href="#contact"><button>hireme</button></a>
+      
 
     </div>
 
@@ -96,7 +98,8 @@
         <a href="https://twitter.com/taqusamu95"><img src="img/twitter.png" alt="twitter"></a>
         <a href="https://github.com/shakespear95"><img src="img/github.png" alt="github"></a>
 
-      </div>
+      </div> <br>
+      <a href="CV - Shakespear  Samu .pdf" target="_blank"><button>My CV</button></a>
 
     </div>
 
@@ -251,11 +254,13 @@
         </p>
       </div>
       <div class="form">
-        <input type="text" placeholder="name" class="name">
-        <input type="text" placeholder="email" class="email"> <br>
-        <input type="text" placeholder="subject"><br>
-        <textarea name="" id="input" class="form-control" rows="3" required="required"></textarea>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <form action="https://formspree.io/f/maygyvpy" method="POST" onsubmit="return validateForm()">
+          <input type="text" placeholder="name" class="name" name="name" required>
+          <input type="text" placeholder="email" class="email" name="email" required> <br>
+          <input type="text" placeholder="subject" name="subject" required><br>
+          <textarea name="message" id="input" class="form-control" rows="3" required></textarea>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </div>
 
     </div>
@@ -280,6 +285,7 @@
 
    </section>
    <script src="index.js"></script>
-   <script>"navbar.js"</script>
+   <script src ="navbar.js"></script>
+   <script src="form.js"></script>
 </body>
 </html>

@@ -37,7 +37,7 @@ color: #c29a65;
 }
 
 button:hover {
-  color: #ffffff;
+    background-color: #c29a65;
 }
 .logo {
   font-family: 'Cormorant', sans-serif;
@@ -57,7 +57,7 @@ header {
 .navbar {
   display: flex;
   justify-content: space-between;
-  height: 3em;
+  height: 4em;
   background-color: #222222;
 
 }
@@ -81,6 +81,8 @@ body {
 
 .nav-active {
   background-color: #c29a65;
+  height: 30px;
+  border-radius: 10px;
 }
 
 hr {
@@ -131,7 +133,7 @@ padding-top: 6em;
 
 button {
   border-radius: 10px;
-  background-color: #c29a65;
+  background-color:black;
   padding: 20px;
   width: 200px;
   color: #ffffff;
@@ -217,6 +219,9 @@ button {
   margin-bottom: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
+  color: #222222;
+  font-family: 'Lilita', sans-serif;
+  font-size: large;
 }
 
 .form button {
