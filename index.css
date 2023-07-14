@@ -14,6 +14,7 @@ h2 {
   font-weight: 900;
   text-shadow: 0 0 5px black;
   animation: animateHeading 3s infinite;
+  text-align: center;
 }
 
 h3 {
@@ -269,13 +270,6 @@ button {
   }
 }
 
-.contact-me h2,
-.Service h2,
-.projects h2 ,
-.sales h2{
-  text-align: center;
-}
-
 .footer {
   text-align: center;
   background-color: black;
@@ -394,4 +388,27 @@ img {
   padding: 5px 10px;
   margin: 0 5px;
 }
+
+
+
+ @media only screen and {min-width: 768px;
+  .tab {
+    display: flex;
+    background-color: black ;
+    border: #ccc solid;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 2em;
+    
+  }
+   .tab img {
+    width: 70em
+   }
+  
+   .explanation {
+    width: 70%;
+    margin: 10em 1em;
+   }
+ }
 
