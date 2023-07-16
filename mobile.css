@@ -9,11 +9,12 @@
 
       h3 {
         font-family: 'Lilita', sans-serif;
-        font-size: 20px;
+        font-size: 15px;
         color: #c29a65;
         font-weight: 700;
         text-shadow: 0 0 5px black;
         animation: animateHeading 3s infinite;
+        text-align: center;
       }
 
       header {
@@ -60,6 +61,7 @@
         background-color: rgba(0, 0, 255, 0.7); /* Blue transparent background */
         padding: 1em;
         width: 13em;
+        margin-top: 11em;
       }
       
       .toggle-nav:checked ~ .hamburger .fa-bars {
@@ -88,7 +90,7 @@
       
   
       .middle1 {
-        background: url(img/9517f3629ae9e973f5ae2d5f6693a0f-PhotoRoom.png-PhotoRoom.png) no-repeat;
+        background: url(img/shakes.jpg) no-repeat;
         height: 30em;
         width: 90%;
         margin: auto;
@@ -157,20 +159,35 @@
       }
 
       .tab {
-        display: inline;
-        background-color: black ;
+        display: block;
+        background-color: black;
         width: 80%;
         margin: auto;
         margin-top: 2em;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 1em;
         
       }
       .tab img {
-        width: 20em;
-        margin-left: 2em;
+        width: 70%;
+    margin: 0 auto;
+    display: block;
 
 
        }
        .explanation {
         width: 70%;
+        margin: 1em auto;
        }
+
+       .tab:nth-child(2) .explanation {
+        order: -1;
+      }
+
+      hr {
+        height: 0.4em;
+        margin: 0;
+        background-color: #c29a65;
+      }
   }

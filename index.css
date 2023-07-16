@@ -86,12 +86,6 @@ body {
   border-radius: 10px;
 }
 
-hr {
-  height: 1em;
-  margin: 0;
-  background-color: #c29a65;
-}
-
 .HTML > hr {
   width: 90%;
 }
@@ -389,26 +383,29 @@ img {
   margin: 0 5px;
 }
 
-
-
- @media only screen and {min-width: 768px;
+@media screen and (min-width: 768px) {
   .tab {
     display: flex;
-    background-color: black ;
+    background-color: black;
     border: #ccc solid;
     border-radius: 10px;
     width: 80%;
     margin: auto;
     margin-top: 2em;
-    
   }
-   .tab img {
-    width: 70em
-   }
-  
-   .explanation {
+
+  .tab img {
+    width: 70em;
+  }
+
+  .explanation {
     width: 70%;
     margin: 10em 1em;
-   }
- }
+  }
 
+  hr {
+    height: 1em;
+    margin: 0;
+    background-color: #c29a65;
+  }
+}
